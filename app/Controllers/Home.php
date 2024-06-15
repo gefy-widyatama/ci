@@ -8,4 +8,8 @@ class Home extends BaseController
     {
       echo view('welcome_message');
     }
+
+    public function getNews() {
+      
+    }
 }
